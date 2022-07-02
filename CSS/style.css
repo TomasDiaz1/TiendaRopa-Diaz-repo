@@ -71,6 +71,11 @@ header ul li:hover ul{
     background-color: grey;
     display: flex;
     flex-direction: column;
+    animation: efecto-cambiocolor;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 1s;
     
     
    
@@ -92,6 +97,12 @@ header ul li:hover ul{
     color: black;
     font-size: larger;
     text-align: center;
+    transition: all 1s;
+}
+.ofertas1:hover{
+    width: 170px;
+    height: 250px;
+
 }
 .ofertas2{
     background-color: white;
@@ -110,6 +121,12 @@ header ul li:hover ul{
     color: black;
     font-size: larger;
     text-align: center;
+    transition: all 1s;
+}
+.ofertas2:hover{
+    width: 170px;
+    height: 250px;
+
 }
 .ofertas3{
     background-color: white;
@@ -128,6 +145,12 @@ header ul li:hover ul{
     color: black;
     font-size: larger;
     text-align: center;
+    transition: all 1s;
+}
+.ofertas3:hover{
+    width: 170px;
+    height: 250px;
+
 }
 h1{
     margin-top: 50px;
@@ -170,6 +193,17 @@ h1{
     justify-content: center;
     color: black;
     font-size: larger;
+    transition: all 1s;
+    animation: color-bordes;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+.productosremeras:hover{
+    width: 250px;
+    height: 350px;
+
 }
 .productosbuzos{
     color: azure;
@@ -191,6 +225,17 @@ h1{
     color: black;
     font-size: larger;
     text-align: center;
+    transition: all 1s;
+    animation: color-bordes;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+.productosbuzos:hover{
+    width: 250px;
+    height: 350px;
+
 }
 .productoscamperas{
     color: azure;
@@ -212,6 +257,18 @@ h1{
     color: black;
     font-size: larger;
     text-align: center;
+    transition: all 1s;
+    animation: color-bordes;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-delay: 1s;
+
+}
+.productoscamperas:hover{
+    width: 250px;
+    height: 350px;
+
 }
 /*Pie de pagina*/
 footer{
@@ -225,6 +282,10 @@ background-color: black;
 footer a{
     margin-top: 100px;
     font-size: 20px;
+    transition: all 1s;
+}
+footer a:hover{
+    font-size: 23px;
 }
 
 /*pagina especifcada para un producto*/
@@ -295,6 +356,28 @@ margin-top: 70px;
 button{
 width: 100px;
 
+}
+input{
+    width: 150px;
+}
+input:focus{
+width: 250px;
+height: 50px;
+}
+
+
+
+
+@keyframes efecto-cambiocolor {
+    100% { background-color: gray; }
+    100% { background-color: black; }
+    
+}
+@keyframes color-bordes {
+    100% { border-color: black; }
+    100% { border-color: gray; }
+    100% { border-color: black; }
+    
 }
 /*El footer se repite a los otros HTML*/
 

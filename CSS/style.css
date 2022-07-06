@@ -27,10 +27,18 @@ header{
     grid-area: header;
     background-color: black;
     height: 210px;
+    background-image: url(../Media/Fondoheader.png);
+    background-repeat: no-repeat;
     
 }
 header #versionmobile{
     display: none;
+}
+#filtros{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: 140px;
 }
 
 
@@ -328,15 +336,22 @@ footer a:hover{
 .preguntasfrecuentes{
     grid-area: aside;
     background-color: grey;
-    height: 2700px;
+    height: 2900px;
     display: flex;
     flex-direction: column;
     font-size: large;
     align-items: center; 
+    background-image: url(../Media/LogoSN.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 250px;
 }
 .preguntasfrecuentes p{
-margin-top: 70px;
+margin-top: 50px;
 
+}
+#preguntas{
+    margin-top: 300px;
 }
 .preguntasfrecuentes img{
    width: 200px;
@@ -357,12 +372,8 @@ button{
 width: 100px;
 
 }
-input{
-    width: 150px;
-}
-input:focus{
-width: 250px;
-height: 50px;
+.filtrosSN{
+    margin-top: 200px;
 }
 
 
@@ -458,7 +469,7 @@ height: 50px;
     }
     header ul li:hover ul{
         display: block;
-    }
+    }*/
     .Masvendidos{
         display: flex;
         flex-direction: row;

@@ -68,3 +68,11 @@ a:hover{
 footer{
     margin-top: 200px;
 }
+
+@media(max-width: 576px){
+    
+header img{
+    display: none;
+}
+
+}
